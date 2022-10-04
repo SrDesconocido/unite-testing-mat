@@ -1,4 +1,4 @@
-import {compute} from './compute';
+import { compute } from './compute';
 
 describe('compute test suite', () =>{
     it('Should return 0 if input is negative', () => {
@@ -7,7 +7,7 @@ describe('compute test suite', () =>{
     })
 
     it('Should increment the imput if it is positive ',()=> {
-        const result =compute(-1);
+        const result =compute(1);
         expect(result).toBe(2);
     })
 })
